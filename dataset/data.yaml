@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['Paper', 'Plastic']
+
+roboflow:
+  workspace: t-sw9n9
+  project: garbage-classifier-oehkt-vwbha
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/t-sw9n9/garbage-classifier-oehkt-vwbha/dataset/2
